@@ -1,0 +1,131 @@
+.carousel-control-prev, .carousel-control-next{
+  width: 2%!important;
+}
+.w-40{
+  width: 40%!important;
+  text-align: left;
+  padding-bottom: 150px;
+}
+.w-40 h2{
+  line-height: 40px;
+  padding-bottom: 30px;
+}
+.control-left-icon {
+  position: absolute;
+  bottom: 100px;
+  left: 745%;
+}
+.control-right-icon {
+  position: absolute;
+  right: 3825%;
+  bottom: 100px;
+  background: red;
+}
+i.fas.fa-arrow-left.control-left-icon.bg-icon-color {
+  background: #007bff!important;
+  padding: 4px 6px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+i.fas.fa-arrow-right.control-right-icon.bg-icon-color {
+  background: #007bff!important;
+  padding: 4px 6px;
+  border-radius: 5px;
+  font-size: 20px;
+  color: #fff;
+}
+.dis-active{
+  display: none;
+}
+.carousel-indicators .active{
+  background-color: transparent;
+  display: block!important;
+}
+ol.carousel-indicators span {
+  position: absolute;
+  left: 45px;
+  bottom: 77px;
+  color: #fff;
+}
+/* media query start form here */
+
+@media(max-width: 1180px){
+  .control-right-icon{
+    right: 3760%;
+  }
+  .w-40{
+    padding-bottom: 100px;
+  }
+}
+@media(max-width: 976px){
+  .control-right-icon{
+    right: 3660%;
+  }
+  .w-40 h2{
+    padding-bottom: 10px;
+    line-height: 30px;
+  }
+}
+@media(max-width: 960px){
+  .control-left-icon, .control-right-icon{
+    bottom: 50px;
+  }
+  ol.carousel-indicators span{
+    bottom: 30px;
+  }
+
+}
+@media(max-width: 768px){
+  .carousel-item img{
+    height: 300px;
+  }
+  .w-40{
+    padding-bottom: 50px;
+  }
+  .w-40 h2{
+    font-size: 18px;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+  .w-40 a{
+    padding: 3px 5px;
+  }
+  .control-left-icon, .control-right-icon{
+    bottom: 20px;
+  }
+  .control-right-icon{
+    right: 3560%;
+  }
+  ol.carousel-indicators span{
+    bottom: 0px;
+  }
+}
+@media(max-width: 700px){
+  .control-right-icon{
+    right: 3460%;
+  }
+}
+@media(max-width: 630px){
+  .control-right-icon{
+    right: 3360%;
+  }
+  ol.carousel-indicators span{
+    left: 40px;
+  }
+}
+@media(max-width: 500px){
+  .control-right-icon{
+    right: 3260%;
+  }
+}
+@media(max-width: 450px){
+  .control-right-icon{
+    right: 3000%;
+  }
+}
+@media(max-width: 400px){
+  .control-right-icon{
+    right: 2800%;
+  }
+}
